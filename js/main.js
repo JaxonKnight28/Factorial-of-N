@@ -1,13 +1,14 @@
+let total = 1;
+let result = 0
 function displayResult() {
-  let result = 0
+  result = 0
   let inputNum = document.getElementById('number').value;
-  console.log(factorial(inputNum))
   result = factorial(inputNum);
   document.getElementById('output').innerHTML = result;
 }
 
 
-let total = 1;
+
 function factorial(n) {
   if (n < 1) {
     return total;
@@ -18,4 +19,3 @@ function factorial(n) {
   }
 }
 
-//console.log(factorial(7));
