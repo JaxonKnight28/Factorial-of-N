@@ -1,8 +1,9 @@
 let total = 1;
-let result = 0
+let result = 0;
 function displayResult() {
-  result = 0
+  
   let inputNum = document.getElementById('number').value;
+  total = 1;
   result = factorial(inputNum);
   document.getElementById('output').innerHTML = result;
 }
